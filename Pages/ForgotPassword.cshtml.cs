@@ -22,7 +22,7 @@ public class ForgotPasswordModel : PageModel
     public async Task<IActionResult> OnPostAsync()
     {
         var payload = new { email = Email };
-        var response = await _httpClient.PostAsJsonAsync("https://capturetheflagbackend-production.up.railway.app/recover", payload);
+        var response = await _httpClient.PostAsJsonAsync("https://capturetheflagbackend-production.up.railway.app/api/auth/recover", payload);
         if (response.IsSuccessStatusCode)
         {
             // Optionally, show a confirmation message
