@@ -37,7 +37,7 @@ public class RegisterModel : PageModel
         }
 
         var payload = new { email = Email, password = Password, nickname = Nickname };
-        var response = await _httpClient.PostAsJsonAsync("http://localhost:3000/api/auth/register", payload);
+        var response = await _httpClient.PostAsJsonAsync("https://capturetheflagbackend-production.up.railway.app/register", payload);
         if (response.IsSuccessStatusCode)
         {
             return RedirectToPage("index");

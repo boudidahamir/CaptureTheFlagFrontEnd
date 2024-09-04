@@ -32,7 +32,7 @@ public class ResetPasswordModel : PageModel
         }
 
         var payload = new { password = Password };
-        var response = await _httpClient.PostAsJsonAsync($"http://localhost:3000/api/auth/reset/{Token}", payload);
+        var response = await _httpClient.PostAsJsonAsync($"https://capturetheflagbackend-production.up.railway.app/reset/{Token}", payload);
         if (response.IsSuccessStatusCode)
         {
             // Optionally, show a success message or redirect to login

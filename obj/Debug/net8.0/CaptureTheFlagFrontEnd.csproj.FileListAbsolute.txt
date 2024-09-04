@@ -28,3 +28,4 @@ C:\Users\amirb\OneDrive\Bureau\CaptureTheFlagFrontEnd\obj\Debug\net8.0\refint\Ca
 C:\Users\amirb\OneDrive\Bureau\CaptureTheFlagFrontEnd\obj\Debug\net8.0\CaptureTheFlagFrontEnd.pdb
 C:\Users\amirb\OneDrive\Bureau\CaptureTheFlagFrontEnd\obj\Debug\net8.0\CaptureTheFlagFrontEnd.genruntimeconfig.cache
 C:\Users\amirb\OneDrive\Bureau\CaptureTheFlagFrontEnd\obj\Debug\net8.0\ref\CaptureTheFlagFrontEnd.dll
+C:\Users\amirb\OneDrive\Bureau\CaptureTheFlagFrontEnd\obj\Debug\net8.0\CaptureTheFlagFrontEnd.sourcelink.json
